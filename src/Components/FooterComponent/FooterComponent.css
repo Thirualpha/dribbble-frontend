@@ -1,0 +1,87 @@
+.totfoot{
+/* position: fixed;
+bottom: 0; */
+/* background-color: antiquewhite; */
+height: 300px;
+}
+img{
+    height: 74px;
+    width: 140px;
+
+}
+img:hover{
+    cursor: pointer;
+}
+.imgid{
+    margin-top: 60px;
+    /* padding-top: 20px;    */
+}
+.imgid1{
+margin-top: 89px;
+
+
+}
+.foot1{
+margin-left: 15%;
+margin-top: 2%;
+display: flex;
+/* background-color: aquamarine; */
+/* margin-top: 5%; */
+margin-right: 13%;
+font-weight: 600;
+}
+.foota1{
+    padding-left: 50px;
+    padding-right: 20px;
+    
+    
+}
+.foota{
+    padding: 0px 20px;
+}
+.ics0{
+    padding-left: 50px;
+    padding-right: 20px;
+    
+
+}
+.icns{
+    padding: 0px 8px;
+}
+.icns:hover{
+    cursor: pointer;
+}
+
+.foot2{
+display: flex;
+/* background-color: cornflowerblue; */
+margin-top: 3%;
+
+}
+.foot21{
+/* background-color: beige; */
+display: flex;
+margin-left: 15%;
+color: rgb(140, 141, 148);
+}
+.foot22{
+/* background-color: aquamarine; */
+margin-left: 19%;
+padding-top: 18px;
+
+}
+.foot221{
+    padding: 0px 18px 0px 18px;
+    color: rgb(140, 141, 148);
+
+}
+.foot211{
+   padding-top: 16px;
+   padding-left: 17px;
+   
+   /* padding-right: 12px; */
+}
+.foot2111{
+    padding-right: 15px;
+    color: rgb(140, 141, 148);
+}
