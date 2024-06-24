@@ -66,8 +66,8 @@
 .f1 ,.f11{
     padding-left: 5px;
     /* text-align: center; */
-    font-size: large;
-    font-weight: 530;
+    font-size: medium;
+    font-weight: bold;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-top: 20px;
@@ -93,8 +93,9 @@ justify-content: center;
 .searchbr{
     
     margin-left: 25%;
-    padding-top: 18px;
+    padding-top: 20px;
     width: 200px;
+    position: relative;
     /* max-width: 590px; */
     
     /* background-color: #333; */
@@ -103,9 +104,15 @@ justify-content: center;
 .seric{
     position: absolute  ;
     /* background-color: #cf9393; */
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 12px;
     margin-top: 2px;
+    margin-right: 10px;
+  
+    left: 0;
+    
 }
 .searchbr:hover{
     /* color: azure; */
@@ -114,10 +121,10 @@ justify-content: center;
 }
 .insidesb{
     /* padding:12px; */
-    padding-left: 30px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-background-color: #f4f4f5;
+    padding-left: 50px;
+    padding-top: 19px;
+    padding-bottom: 17px;
+background-color: #f5f4f5;
     border-radius: 25px;
     width: 140%;
     border:none
@@ -127,13 +134,13 @@ background-color: #f4f4f5;
 }
 .insidesb:hover{
     border: 3px solid rgb(221, 177, 219);
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 .useric{
     display: inline;
     justify-content: center;
     text-align: center;
-    margin-top: 1.1%;
+    margin-top: 1.4%;
     padding-left: 12px;
     width: 200px;
     height: 0px;
@@ -225,9 +232,9 @@ font-family: Arial, Helvetica, sans-serif;
 /* background-color: antiquewhite; */
 }
 .a1{
-    font-size: large;
+    font-size: medium;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    font-weight: 530;
+    font-weight:bold;
     display: inline;
     padding-left: 9px;
     padding-right: 9px;
@@ -308,8 +315,8 @@ margin-bottom: 0px;
    
 }
 .dribbb{
-    height: 70px;
-    width: 130%;
+    height: 64px;
+    width: 142%;
     margin-left: 0px;
 }
 .p3{
