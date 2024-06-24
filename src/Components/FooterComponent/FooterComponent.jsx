@@ -32,7 +32,7 @@ const FooterComponent = () => {
         </div>
         <div className='foot2'>
             <span className='foot21'>
-                <p>© 2024 Dribbble</p>
+                <p className='copyrights-year'>© 2024 Dribbble</p>
                 <span className='foot211'>
                 <a href='#' className='foot2111'>Terms</a>
                 <a href='#' className='foot2111'>Privacy</a>

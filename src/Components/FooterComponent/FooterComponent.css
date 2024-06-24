@@ -83,5 +83,10 @@ padding-top: 18px;
 }
 .foot2111{
     padding-right: 15px;
+    /* padding-top: ; */
     color: rgb(140, 141, 148);
+}
+
+.copyrights-year{
+    padding-top: 16px;
 }
