@@ -84,6 +84,10 @@ export const HomeComponent = () => {
       const sortedImages = [...images].sort((a, b) => b.views - a.views);
       setFilteredImages(sortedImages);
     }
+    else if (selectedValue === "news") {
+      const sortedImages = [...images].sort((a, b) => b.views - a.views);
+      setFilteredImages(sortedImages);
+    }
     else {
       setFilteredImages([]);
     }
