@@ -213,6 +213,7 @@ export const HomeComponent = () => {
                     <img className="imgprofile" src={profilepic2} />
                   </p>
                   <p className="p1">{image.author}</p>
+                  <p className="pro">PRO</p>
                   <AiTwotoneHeart id="likeicon" />
                   <p className="p2">
                     {image.likes}
