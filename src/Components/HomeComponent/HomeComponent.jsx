@@ -145,7 +145,7 @@ export const HomeComponent = () => {
           </a>
         </div>
         <div className="homec">
-          <img src={dribbble} alt="logo" className="dribbb"></img>
+         <a href="https://dribbble-frontend-tawny.vercel.app"> <img src={dribbble} alt="logo" className="dribbb"></img></a>
         </div>
 
         <div className="searchbr">
