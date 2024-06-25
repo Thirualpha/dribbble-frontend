@@ -57,7 +57,7 @@ export const HomeComponent = () => {
     { name: 'Captain America,Steve rogers', nam: 'Captain America', src: img6, author: 'Mark Anto', likes: 390, views: 55, categ: 'Illustration' },
     { name: 'Ironman,tony stark', nam: 'Ironman', src: img7, author: 'Rick Reiler', likes: 619, views: 32.5, categ: 'Web Design' },
     { name: 'Keaneu Reeves,Jhon Wick', nam: 'Jhon Wick', src: img8, author: 'Harper Lee', likes: 670, views: 52.8, categ: 'Mobile' },
-    { name: 'Harry Potter,Daniel Radcliff', nam: 'Harry Potter', src: img9, author: 'Jane Rowling', likes: 643, views: 62.1, categ: 'Discover' },
+    { name: 'Harry Potter,Daniel Radcliff', nam: 'Harry Potter', src: img9, author: 'JA Rowling', likes: 643, views: 62.1, categ: 'Discover' },
     { name: 'Tyler Durden,Brad Pitt', nam: 'Tyler Durden', src: img10, author: 'Roger Mark', likes: 554, views: 57.9, categ: 'Mobile' },
     { name: 'Joker', nam: 'Joker', src: img11, author: 'Artris Lian', likes: 586, views: 62.2, categ: 'Illustration' },
     { name: 'Adolf Hitler', nam: 'Adolf Hitler', src: img12, author: 'Mike Robb', likes: 641, views: 60.9, categ: 'Branding' },
@@ -84,10 +84,12 @@ export const HomeComponent = () => {
     } else if (selectedValue === "following") {
       const sortedImages = [...images].sort((a, b) => b.views - a.views);
       setFilteredImages(sortedImages);
-    } else if (selectedValue === "news") {
-      const sortedImages = [...images].sort((a, b) => b.views - a.views);
-      setFilteredImages(sortedImages);
-    } else {
+    } 
+    // else if (selectedValue === "news") {
+    //   const sortedImages = [...images].sort((a, b) => b.views - a.views);
+    //   setFilteredImages(sortedImages);
+    // }
+     else {
       setFilteredImages([]);
     }
   };
@@ -167,7 +169,7 @@ export const HomeComponent = () => {
       <div className="box1">
         <div className="ddown">
           <label>
-            <span className="ddul">
+            <span className="ddul"><RiArrowDropDownLine className="popularddicon" />
               <select
                 value={value}
                 onChange={handleDropdownChange}
@@ -206,7 +208,7 @@ export const HomeComponent = () => {
             <div className="noresult">No results found</div>
           ) : (
             displayedImages.map((image, index) => (
-              <span key={index}>
+              <span className="thumbnailspan" key={index}>
                 <img className="tn1" src={image.src} alt={image.name} onClick={() => openModal(image)} />
                 <span className="authorname">
                   <p className="p4">
@@ -240,7 +242,7 @@ export const HomeComponent = () => {
           )}
         </div>
       </div>
-      <div>
+      <div className="loadmorediv">
         <a className="loadmore" href="#loadmorework">
           Load more work
         </a>
