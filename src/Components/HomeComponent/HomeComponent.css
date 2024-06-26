@@ -2,6 +2,9 @@
 .fullhome {
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
+  /* background-color: #888; */
+  width: auto;
+  height: auto;
 }
 
 .homee {
@@ -61,9 +64,9 @@
 
 .homec {
   flex-grow: 1;
-  text-align: center;
-  /* margin-right: 7.9%;
-  margin-left: 4%; */
+  /* text-align: center; */
+  /* margin-right: 7.9%; */
+  margin-left: 9%;
 
 }
 .noresult{
@@ -77,9 +80,10 @@
   flex-grow: 1;
   display: flex;
   /* align-items: center; */
-  margin: 0% 1% 0% 18%;
-  width: 0%;
-  padding: 15px 4px 13px 19px;
+  margin: 0% 0% 0% 1%;
+  width: 4.9%;
+  max-width: max-content;
+  padding: 15px 0px 13px 15px;
   background-color: #f6f8fd;
   border-radius: 36px;
   border-color: #d2d2d2;
@@ -104,7 +108,7 @@
   outline: none;
   
   /* width: 10%; */
-  padding: 0px 24px 0px 11px;
+  padding: 0px 79px 0px 11px;
   
 }
 
@@ -118,17 +122,21 @@ cursor: pointer;
 
 .accimgprofile{
   border-radius: 50px;
-  margin-left:0%;
+  margin: 0% 5% 0% 1%;
+    max-width: min-content;
   height: 49px;
-  margin-top: 0.5%;
+  /* margin-top: 0.5%; */
   width: 49px;
 }
 
 .useric {
   display: flex;
-  align-items: center;
-  margin: 10px 0;
-  /* background-color: tomato; */
+  /* align-items: center; */
+  margin: 0% 2% 0% 1%;  /* background-color: tomato; */
+}
+.filterbutton{
+  
+  margin-right: 85px;
 }
 
 .box1 {
@@ -241,6 +249,11 @@ img{
   max-height: 100%;
   margin: 10px;
   cursor: pointer;
+}
+.tn1:hover{
+
+  background-color: #888;
+  opacity: 0.8;
 }
 .imgprofile{
   border-radius: 50px;

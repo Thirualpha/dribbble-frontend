@@ -99,12 +99,12 @@ export const HomeComponent = () => {
   };
 
   const handleKeyDown = (e) => {
-    if (e.key === 'Enter') {
+    // if (e.key === 'Enter') {
       const filtered = images.filter((image) =>
         image.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setFilteredImages(filtered);
-    }
+    // }
   };
 
   const displayedImages =   searchTerm.trim() !== "" || filteredImages.length > 0 ? filteredImages : images;
@@ -147,6 +147,7 @@ export const HomeComponent = () => {
         <div className="homec">
          <a href="https://dribbble-frontend-tawny.vercel.app"> <img src={dribbble} alt="logo" className="dribbb"></img></a>
         </div>
+
 
         <div className="searchbr">
           <div className="seric"><FiSearch /></div>
@@ -197,7 +198,7 @@ export const HomeComponent = () => {
             </a>
           ))}
         </span>
-        <span>
+        <span className="filterbutton">
           <button id="btn"><RiFilter3Fill id="filic" />Filters</button>
         </span>
       </div>

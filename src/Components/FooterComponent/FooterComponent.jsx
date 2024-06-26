@@ -9,7 +9,7 @@ const FooterComponent = () => {
     <div className='totfoot'>
         <div className='foot1'>
             <div className='imgid'>
-                <img src={dribbble} alt='dribbble' ></img>
+            <a href="https://dribbble-frontend-tawny.vercel.app"><img src={dribbble} alt='dribbble' ></img></a>
             
                 </div>
                 <div className='imgid1'>
